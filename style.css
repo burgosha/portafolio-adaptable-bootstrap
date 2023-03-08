@@ -73,8 +73,12 @@ h1 {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    transition: all 0.2s ease-in;
 }
-
+.experiencia .columna:hover {
+    color: white;
+    background-color: #1b1b32;
+}
 .experiencia i {
     font-size: 2.5rem;
     color: #7ade30;
