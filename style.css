@@ -22,6 +22,10 @@ h1 {
     color: white;
     background-color: #1b1b32;
 }
+.seccion-clara {
+    color: black;
+    background-color: white;
+}
 .seccion-titulo {
     font-size: 2rem;
     padding: 15px 0;
@@ -57,6 +61,13 @@ h1 {
 .sobre-mi .contenedor {
     max-width: 600px;
     text-align: center;
+}
+/* Experiencia */
+.experiencia {
+    padding: 40px;
+}
+.experiencia .row div {
+    height: 250px;
 }
 /* Adaptable (Responsive) */
 @media screen and (max-width: 767px) {
