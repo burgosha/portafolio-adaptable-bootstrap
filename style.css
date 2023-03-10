@@ -157,6 +157,14 @@ h1 {
     margin: 10px;
 }
 /* Adaptable (Responsive) */
+@media screen and (max-width: 400px) {
+    .overlay p {
+        font-size: 18px;
+    }
+    .overlay i {
+        font-size: 40px;
+    }
+}
 @media screen and (max-width: 767px) {
     .navbar-brand {
         display: none;
