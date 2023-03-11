@@ -18,6 +18,9 @@ h1 {
     font-size: 2.5rem;
     font-family: 'Rubik Dirt', sans-serif;
 }
+a {
+    color: unset;
+}
 .seccion-oscura {
     color: white;
     background-color: #1b1b32;
@@ -159,6 +162,19 @@ h1 {
     color: black;
     font-size: 60px;
     margin: 10px;
+}
+/* Articulos */
+.articulos {
+    min-height: 500px;
+    padding: 30px;
+}
+.articulos .card {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px;
+}
+.articulos .card-header {
+    font-weight: bold;
 }
 /* Adaptable (Responsive) */
 @media screen and (max-width: 400px) {
